@@ -1,1 +1,1 @@
-echo "yeeeeet: $TRAVIS_COMMIT_MESSAGE\"
+echo "yeeeeet: $TRAVIS_COMMIT_MESSAGE"
