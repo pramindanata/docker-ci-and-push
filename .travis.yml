@@ -1,0 +1,4 @@
+sudo: required
+script:
+  - echo "commit:/ $TRAVIS_COMMIT"
+  - echo "msg:/ $TRAVIS_COMMIT_MESSAGE"
