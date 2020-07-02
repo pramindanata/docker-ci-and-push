@@ -6,6 +6,7 @@ const url = `http://localhost:${port}`
 
 app.get('/', (req, res) => {
   return res.json({
+    code: 'OK',
     message: 'hello world xx'
   })
 })
