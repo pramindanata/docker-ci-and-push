@@ -5,7 +5,10 @@ const port = 4000
 const url = `http://localhost:${port}`
 
 app.get('/', (req, res) => {
+  console.log('hmmm')
+
   return res.json({
+    code: 'OK',
     message: 'hello world xx'
   })
 })
