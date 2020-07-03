@@ -1,10 +1,9 @@
 sudo: required
 services:
   - docker
-script:
-  - "echo \"commit: $TRAVIS_COMMIT\""
-  - "echo \"msg: $TRAVIS_COMMIT_MESSAGE\""
-  - bash docker.sh
+deploy:
+  - provider: script
+    script: bash docker.sh
 branches:
   only:
     - master
