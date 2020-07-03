@@ -4,7 +4,7 @@ services:
   - docker
 deploy:
   - provider: script
-    script: bash docker.sh
+    script: bash deploy.sh
 branches:
   only:
     - master
